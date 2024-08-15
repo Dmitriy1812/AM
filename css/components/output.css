@@ -1,0 +1,25 @@
+.output__form {
+  padding: 15px 15px 23px 15px;
+  border-radius: 14px;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#2E2482), to(#4420E2));
+  background-image: linear-gradient(to right top, #2E2482, #4420E2);
+}
+.output__form > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+.output-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 20px;
+  padding-right: 5px;
+}
+.output-text {
+  text-align: right;
+  font-size: 12rem;
+  color: var(--color-light);
+}
+/*# sourceMappingURL=output.css.map */
